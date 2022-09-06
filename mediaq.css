@@ -1,0 +1,49 @@
+
+
+@media screen and (max-width: 720px) {
+    main{
+        flex-direction: column-reverse;
+    }
+
+    .onebytwo{
+        width: 100%;
+    }
+
+    header{
+        padding: 1rem 1rem;
+    }
+
+    #about{
+        padding: 0px 25px;
+    }
+
+    .about-heading{
+        margin: 0px;
+        margin-bottom: 1em;
+    }
+
+    .about-content{
+        flex-direction: column-reverse;
+    }
+
+    .about-img{
+        margin-right: -25px;
+    }
+
+    .about-text{
+        background-color: rgba(255, 255, 255, 0.225);
+        border-radius: 10px;
+        margin: 0px;
+        padding: 1.5em;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    nav ul {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+}
