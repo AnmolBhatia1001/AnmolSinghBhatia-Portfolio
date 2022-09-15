@@ -1,4 +1,36 @@
 
+@media screen and (max-width: 1024px) {
+    .ui-project-section-div{
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .ui-project-image-div{
+        width: 100%;
+    }
+    .ui-project-content-div{
+        width: 100%;
+        align-items: center;
+    }
+
+    .project-heading{
+        font-size: 2em;
+        text-align: center;
+    }
+    .project-title{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .project-tech{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .project-btn{
+        margin-top: 1em;
+        flex-direction: column;
+    }
+}
+
 
 @media screen and (max-width: 720px) {
     main{
@@ -44,6 +76,15 @@
     nav ul {
         flex-direction: column;
         gap: 4px;
+    }
+
+    .project-title{
+        font-size: 1.25em;
+
+    }
+    .project-tech{
+        font-size: 1.25em;
+
     }
 
 }
